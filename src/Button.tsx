@@ -21,7 +21,7 @@ export const Button = ({ action }: { action: ButtonProps }) => {
 
   return (
     <button
-      className="flex justify-center rounded-md p-7"
+      className="flex justify-center rounded-md p-7 text-white text-base font-bold"
       style={{ backgroundColor: action.color }}
       onClick={handleClick}
     >
